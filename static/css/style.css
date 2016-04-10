@@ -1,0 +1,314 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #eee;
+	font-family: Lato;
+}
+
+/*Nav */
+#nav{
+	height: 3em;
+	width: 100%;
+	text-align: center;
+	background: #dedddd;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#nav-menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav-menuItem{
+	display: inline-block;
+	margin: 1rem;
+}
+.nav-menuItemLink{
+	text-decoration: none;
+	color: #999;
+}
+
+.nav-menuItemLink:visited, .nav-menuItemLink:visited{
+	color: #999;
+}
+
+/*Home*/
+
+#home{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-content figure {
+	width: 35%;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.home-content figure img{
+	width: 100%;
+}
+
+.home-content h1{
+	margin-top: 0;
+}
+
+.home-content{
+	-ms-align-self: center;
+	align-self: center;
+	max-width: 50%;
+	padding: 3rem;
+}
+
+.home-form{
+	-ms-align-self: center;
+	align-self: center;
+	margin: 3rem;
+}
+
+.home-form input{
+	display: block;
+	height: 2.5rem;
+	width: 20rem;
+	margin: .5rem;
+}
+
+.home-form input[type="text"]{
+	padding-left: .2rem;
+	width: 19.8rem;
+}
+
+.form-button{
+	background: #999;
+	box-shadow: none;
+	border: none;
+	color: #fff;
+
+}
+
+.arrow{
+	position: absolute;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-bottom: 1rem;
+	text-align: center;
+	font-size: .8rem;
+	text-decoration: none;
+	color: #999;
+}
+.arrow img{	
+	border: 2px solid lightgray;
+	border-radius: 100%;
+	height: 3rem;
+	width: 3rem;	
+}
+
+
+/* About */
+
+#acerca{
+	text-align: center;
+	background: #fff;
+	
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+
+#about-list{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.about-listItem{
+	align-self: center;
+	max-width: 30%;
+}
+
+.about-listItem figure{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.about-listItem figure img{
+	min-width: 5rem;
+    height: 5rem;
+    flex-basis: 5rem;
+	border-radius: 100%;
+	border: 2px solid lightgray;
+	margin: 1rem;
+}
+
+.about-listItem figure p{
+	text-align: justify;
+	margin: .5rem;
+}
+
+/*Mission and Vision*/
+#mission{
+	padding: 3rem;
+	background: #eee;
+}
+
+#mision p{
+	margin: 0;
+}
+
+
+#vision{
+	background: #ddd;
+	padding: 3rem;
+	text-align: right;
+}
+
+#vision p{
+	text-align: right;
+	right: 0;
+	display: inline-block;
+}
+
+/*Team*/
+#equipo{
+	text-align: center;
+}
+
+#team-list{
+	display: flex;
+	list-style-type: none;
+}
+.team-listItem{
+	margin: 1.5rem;
+}
+.team-listItem figure img{
+	min-width: 5rem;
+    height: 5rem;
+    flex-basis: 5rem;
+	border-radius: 100%;
+	background: lightgray;
+	border: 2px solid lightgray;
+	margin: 1rem;
+}
+.team-listItem p{
+	text-align: justify;
+}
+
+/*Testimonials*/
+
+#testimonios{
+	display: flex;
+}
+.testimonial-panelRight{
+	text-align: center;
+	flex-grow: 1;
+	max-width: 50%;
+	background: #fefefe;
+	padding: 7rem 5rem;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.testimonial-panelRight h2{
+	text-align: left;
+}
+.testimonial-panelRight p{
+	display: inline-block;
+	margin: auto;
+	padding: 0 1rem;
+}
+.testimonial-panelLeft{
+	flex-grow: 1;
+	background: #ccc;
+}
+
+.testimonial-openQuote{
+	text-align: left;
+	font-size: 3rem;
+	color: #888;
+	margin-bottom: -1.5rem;
+}
+.testimonial-closeQuote{
+	text-align: right;
+	font-size: 3rem;
+	color: #888;
+	margin-top: -1.5rem;
+}
+.testimonial-date{
+	display: inherit !important;
+	text-align: right;
+}
+
+/*Footer*/
+footer{
+	font-size: .8rem;
+	color: #999;
+}
+#rrss-list{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.rrss-listItem{
+	display: inline-block;
+	border: 2px solid lightgray;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 100%;
+	margin: 0 1rem;
+
+}
+#foot-list{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+	margin: 0 2rem 1rem 2rem;
+	padding: 0;
+	text-align: center;
+	border-top: 1px solid #aaa;
+}
+
+.foot-listItem{
+	flex-grow: 1;
+	max-width: 30%;
+}
+
+#foot-list figure{
+	margin: 0;
+}
+#foot-list figure img{
+	height: 3rem
+}
+.foot-listItem a, .foot-listItem a:hover, .foot-listItem a:visited{
+	color: #999;
+}
+
+/*General*/
+h4{
+	margin: 0;
+	color: #999;
+}
+h3{
+	margin: .1rem;
+}
+h1, h2, h3{
+	color: #888;
+}
+p{
+	color: #999;
+}
+.section-description{
+	width: 60%;
+	margin: auto;
+}
